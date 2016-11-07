@@ -1,3 +1,3 @@
 <?php
-	echo "Hello " . " good day...";
+	echo 'Привет ' . htmlspecialchars($_GET["name"]) . '!';
 ?>
