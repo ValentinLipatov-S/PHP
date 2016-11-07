@@ -1,3 +1,3 @@
 <?php
-echo "ok";
+	echo "Hello " . $_GET("Name") . " good day...";
 ?>
